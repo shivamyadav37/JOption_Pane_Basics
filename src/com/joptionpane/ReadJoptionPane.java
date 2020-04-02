@@ -11,7 +11,7 @@ public class ReadJoptionPane {
 
         lastName = JOptionPane.showInputDialog("Please Enter he Last Name ");
 
-
+        JOptionPane.showMessageDialog(null, "The Entered Name is "+firstName+" "+lastName);
 
     }
 
