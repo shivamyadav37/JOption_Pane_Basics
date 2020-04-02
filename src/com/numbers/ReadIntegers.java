@@ -13,6 +13,9 @@ public class ReadIntegers {
         input = JOptionPane.showInputDialog("Please Input the Second Nummber");
         secondNumber = Integer.parseInt(input);
 
+        int average = (firstNumber+secondNumber)/2;
+        JOptionPane.showMessageDialog(null,"Average is : "+ average);
+
 
     }
 
