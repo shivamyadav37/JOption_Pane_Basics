@@ -9,7 +9,8 @@ public class ReadIntegers {
 
         String input;
         input = JOptionPane.showInputDialog("Please Enter the First Number");
-
+        firstNumber = Integer.parseInt(input);
+        secondNumber = Integer.parseInt(input);
 
 
     }
