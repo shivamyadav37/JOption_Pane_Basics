@@ -15,6 +15,7 @@ public class ReadIntegers {
 
         int average = (firstNumber+secondNumber)/2;
         JOptionPane.showMessageDialog(null,"Average is : "+ average);
+        System.exit(0);
 
 
     }
