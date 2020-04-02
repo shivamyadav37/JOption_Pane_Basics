@@ -10,6 +10,7 @@ public class ReadIntegers {
         String input;
         input = JOptionPane.showInputDialog("Please Enter the First Number");
         firstNumber = Integer.parseInt(input);
+        input = JOptionPane.showInputDialog("Please Input the Second Nummber");
         secondNumber = Integer.parseInt(input);
 
 
